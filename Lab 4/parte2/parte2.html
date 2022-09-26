@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="" id="form">
+        <div>         
+            <label for="text">Usuario</label>
+            <input type="text" name="usuario" id="usuario" placeholder="Ingrese su usuario">
+        </div>
+
+        <div>
+            <label for="password">Contraseña</label>
+            <input type="password" name="password" id="password" placeholder="Ingrese su contraseña">  
+        </div>
+        <button type="submit" onclick="" >Iniciar</button>
+    </form>
+    <script>
+        const form = document.querySelector('#form');
+        //console.log(form)
+
+        form.addEventListener('submit', (event) => {
+            event.preventDefault();
+            let usuario = document.querySelector('#usuario').value;
+            let password = document.querySelector('#password').value;
+            console.log(usuario,password);
+        })
+    </script>
+
+</body>
+</html>
