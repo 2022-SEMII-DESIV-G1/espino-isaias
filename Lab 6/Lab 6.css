@@ -1,0 +1,21 @@
+div {
+    margin-right: 60%;
+    margin-left: 0%;
+    border: 1px solid black;
+    padding: 20px;
+}
+h1{
+    color: #375e97;
+    font-family: Georgia;
+}
+hr{
+    color: #375e97;
+}
+sub {
+    color: #999999;
+    font-family: Arial;
+}
+span{
+    color: #fb6542;
+    font-family: Arial;
+}
